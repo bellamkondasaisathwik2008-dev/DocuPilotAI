@@ -1,0 +1,26 @@
+{
+  "name": "docupilot-ai-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "DocuPilot AI — Intelligent Document Processing & Knowledge Extraction Platform",
+  "scripts": {
+    "start": "npm start --prefix server",
+    "server": "npm start --prefix server",
+    "server:dev": "npm run dev --prefix server",
+    "client": "npm run dev --prefix client",
+    "client:build": "npm run build --prefix client",
+    "build": "npm run build --prefix client",
+    "test": "npm test --prefix server"
+  },
+  "keywords": [
+    "intelligent-document-processing",
+    "idp",
+    "gemini",
+    "gemini-2.5-flash",
+    "supabase",
+    "react",
+    "express"
+  ],
+  "author": "DocuPilot AI Systems",
+  "license": "MIT"
+}
